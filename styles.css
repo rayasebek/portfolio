@@ -1,0 +1,172 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Acumin Variable Concept", "Acumin Pro", Helvetica, Arial, sans-serif;
+    background-color: #fffaf8;
+    line-height: 1.6;
+}
+
+h1, h2, h3{
+    font-family: "Baskerville Old Face", Baskerville, "Libre Baskerville", serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header h1, header h2, .gbutton{
+  max-width: 500px;
+}
+
+
+.nav{
+    background-color: #c5c392;
+    border-radius: 30px;
+    padding: .75rem 2rem;
+    color: #fff;
+}
+
+nav h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+nav h3, nav img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav img{
+    height: 36px;
+    margin-right: 0.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: .95rem;
+    margin: .75rem;
+}
+
+.cbutton{
+    background-color: #dd604a;
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+
+.cbutton:hover{
+    background-color: #d45c48;
+}
+
+
+header h1{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+header h2{
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.gbutton{
+    background-color: #73a580;
+    color: #fff;
+    padding: .75rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+
+.aboutdiv h2, .uxdiv h2{
+    background-color: var(--coral);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem 0 2rem 0;
+}
+
+main p{
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem 2em;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.card{
+    background-color: #efedea;
+    padding: 2rem;
+    border-radius: 25px;
+}
+
+.card h3{
+    margin-bottom: 1rem;
+    color: #dd604a;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery iframe, .gallery img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer{
+    display: inline-block;
+    padding: 2rem;
+}
+
+.footer img{
+    height: 30px;
+    margin: 0 0.5rem;
+}
+
+.footinfo{
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.final{
+    background-color: #dd604a;
+    color: #dd604a;
+    font-size: 1.5rem;
+}
+
+hr{
+    color: #73a580;
+    height: 3px;
+}
